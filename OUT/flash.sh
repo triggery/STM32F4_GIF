@@ -1,0 +1,1 @@
+st-flash write myproject.bin 0x8000000

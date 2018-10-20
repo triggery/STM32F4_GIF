@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.386035017">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.386035017" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.386035017" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.386035017." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.2071956968" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.2071956968.1384120117" name=""/>
+							<builder id="org.eclipse.cdt.build.core.settings.default.builder.1547166233" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1341319894" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1049513969" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.734584949" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/arm-none-eabi/include"/>
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/lib/gcc/arm-none-eabi/5.2.1/include/"/>
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/arm-none-eabi/include/sys"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/Audio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/Dispatcher}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/FAT_FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/FILE_MAN}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/IMAGE_LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/LCD}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/MY_LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/STM32F4xx_SPL/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/USB/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.2134808211" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.2146741278" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.633727586" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/arm-none-eabi/include"/>
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/lib/gcc/arm-none-eabi/5.2.1/include/"/>
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/arm-none-eabi/include/sys"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/Audio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/Dispatcher}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/FAT_FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/FILE_MAN}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/IMAGE_LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/LCD}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/MY_LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/STM32F4xx_SPL/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/USB/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.752778233" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.135216223" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1518177908" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/arm-none-eabi/include"/>
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/lib/gcc/arm-none-eabi/5.2.1/include/"/>
+									<listOptionValue builtIn="false" value="/opt/gcc-arm-none-eabi-5_2-2015q4/arm-none-eabi/include/sys"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/Audio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/Dispatcher}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/FAT_FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/FILE_MAN}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/IMAGE_LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/LCD}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/MY_LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/STM32F4xx_SPL/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/USB/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/STM32F4_GIF_LCD/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1669933349" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="STM32F4_GIF_LCD.null.325872481" name="STM32F4_GIF_LCD"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.386035017">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
